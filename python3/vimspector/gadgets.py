@@ -56,9 +56,9 @@ GADGETS = {
         'c25299bcfb46b22d41aa3f125df7184e6282a35ff9fb69c47def744cb4778f55',
     },
     'macos': {
-      'file_name': 'cpptools-osx.vsix',
+      'file_name': 'cpptools-osx-arm64.vsix',
       'checksum':
-        'ae21cde361335b350402904991cf9f746fec685449ca9bd5d50227c3dec3719b',
+        'ceb3e8cdaa2b5bb45af50913ddd8402089969748af8d70f5d46480408287ba6f',
     },
     'windows': {
       'file_name': 'cpptools-win32.vsix',
@@ -394,12 +394,12 @@ GADGETS = {
              '${version}/${file_name}',
     },
     'all': {
-      'version': 'v1.6.5',
+      'version': 'v1.6.6',
     },
     'macos': {
-      'file_name': 'codelldb-x86_64-darwin.vsix',
+      'file_name': 'codelldb-aarch64-darwin.vsix',
       'checksum':
-        'e7d9f4f8ec3c3774af6d1dbf11f0568db1417c4d51038927228cd07028725594',
+        '5adc3b9139eabdafd825bd5efc55df4424a203fb2b6087b425cd434956e7ec58',
       'make_executable': [
         'adapter/codelldb',
         'lldb/bin/debugserver',
